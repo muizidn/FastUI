@@ -1,0 +1,22 @@
+name: FastUI
+targets:
+  FastUI:
+    type: framework
+    platform: iOS
+    settings:
+      INFOPLIST_FILE: plists/Info.plist
+      IOS_DEPLOYMENT_TARGET: 8.0
+    sources:
+      - path: Sources/FastUI
+        includes: 
+          - "*.swift"
+  FastUIKit:
+    type: framework
+    platform: iOS
+    settings:
+      INFOPLIST_FILE: plists/Info.plist
+      IOS_DEPLOYMENT_TARGET: 8.0
+    sources:
+      - path: Sources/FastUIKit
+        includes: 
+          - "*.swift"
