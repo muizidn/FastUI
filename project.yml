@@ -10,6 +10,9 @@ targets:
       - path: Sources/FastUI
         includes: 
           - "*.swift"
+    dependencies:
+      - target: FastUIKit
+      - carthage: ViewDSL
   FastUIKit:
     type: framework
     platform: iOS
@@ -20,3 +23,15 @@ targets:
       - path: Sources/FastUIKit
         includes: 
           - "*.swift"
+    dependencies:
+      - carthage: FlexLayout
+      - carthage: ViewDSL
+  ExampleApp:
+    type: application
+    platform: iOS
+    settings:
+      INFOPLIST_FILE: ExampleApp/Info.plist
+      IOS_DEPLOYMENT_TARGET: 10.0
+    sources: ExampleApp
+    dependencies:
+      - target: FastUI

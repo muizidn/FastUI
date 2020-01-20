@@ -1,4 +1,5 @@
-Workspace.xcworkspace
+*.xcworkspace
+*.xcodeproj
 
 # Created by https://www.gitignore.io/api/xcode,macos,carthage
 # Edit at https://www.gitignore.io/?templates=xcode,macos,carthage
