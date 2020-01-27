@@ -10,23 +10,18 @@ import FastUI
 class ViewController: UIViewController {
     var body: SomeView {
         VStack {
-//            HStack {
-//                HStack()
-//            }
-//            .frame(height: 30)
-//            .foregroundColor(.blue)
-
             HStack {
-                
+                HStack()
             }
-//            HStack {
-//                VStack()
-//                VStack()
-//            }
-//            .frame(height: 30)
-//            .foregroundColor(.red)
+
+            HStack {}
+            VStack {}
+            
+            HStack {
+                VStack()
+                VStack()
+            }
         }
-        .foregroundColor(.cyan)
     }
     
     override func loadView() {

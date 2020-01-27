@@ -4,16 +4,21 @@ public protocol SomeView: CustomDebugStringConvertible {
     var view: UIView { get }
 }
 
+extension SomeView {
+    func asSubviews() -> [SomeView] {
+        if let view = self as? TupleView {
+            return view._view.contents
+        }
+        return [self]
+    }
+}
+
 public extension SomeView where Self: UIKitContainer {
     init(@ViewBuilder builder: () -> SomeView) {
-        self = Self.create(.init(), subViews: [builder()] )
+        self = Self.create(.init(), subViews: builder().asSubviews())
     }
     
-    init(@ViewBuilder builder: () -> [SomeView]) {
-        self = Self.create(.init(), subViews: builder() )
-    }
-    
-    init(builder: () -> Void) {
+    init(@ViewBuilder builder: () -> Void) {
         builder()
         self = Self.init()
     }
