@@ -12,19 +12,3 @@ public struct ViewBuilder {
     
     public static func buildBlock(view: TupleView) -> SomeView { view }
 }
-
-public func testOnly() -> SomeView {
-    VStack {
-        VStack {
-            HStack()
-        }
-        .frame(height: 30)
-        .foregroundColor(.red)
-        HStack {
-            VStack()
-        }
-        .frame(height: 30)
-        .foregroundColor(.blue)
-    }
-    .foregroundColor(.cyan)
-}
