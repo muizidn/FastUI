@@ -7,18 +7,26 @@
 
 import UIKit
 
-protocol Poolable {
+public protocol Poolable {
     static func defaultInit() -> Self
     static var group: String { get }
 }
 
-protocol Resettable {
+/* For Developer
+ General Guideline to Reset UIView object state
+    tag = 0
+    frame = .zero
+    bounds =.zero
+    text = ""
+    etc...
+ */
+public protocol Resettable {
     func reset()
 }
 
 fileprivate var objects = [String: [Poolable]]()
 
-func Pool<T>(_ t: T.Type) -> T where T: Poolable {
+public func Pool<T>(_ t: T.Type) -> T where T: Poolable {
     var pools = objects[T.group] ?? []
     if let o = pools.popLast() {
         return o as! T
@@ -26,7 +34,7 @@ func Pool<T>(_ t: T.Type) -> T where T: Poolable {
     return T.defaultInit()
 }
 
-func Pool<T>(_ o: T) where T: Resettable & Poolable {
+public func Pool<T>(_ o: T) where T: Resettable & Poolable {
     o.reset()
     var pools = objects[T.group] ?? []
     pools.append(o)

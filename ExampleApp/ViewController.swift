@@ -10,29 +10,65 @@ import FastUI
 class ViewController: UIViewController {
     var body: SomeView {
         VStack {
-//            GeometryReader { geometry in
-//                HStack {
-//                    VStack()
-//                    VStack()
-//                }
-//            }
-//            .frame(height: 30)
-//            .color(.blue)
+            HStack {
+                Color.red
+                    .configure({
+                        $0.flex_width(50%)
+                        $0.flex_height(100%)
+                    })
+                Color.blue
+                    .configure({
+                        $0.flex_width(50%)
+                        $0.flex_height(100%)
+                    })
+            }
+            .configure({
+                $0.foregroundColor(.black)
+                $0.flex_height(100)
+            })
+            
+            EmptyView()
+                .flex_height(10)
+            
+            Text("Hello World")
+            
+            TextField("Say Your Name World!")
+            
+            SecureTextField()
+            
+            Button("Click Me!") {
+                print("I am clicked")
+            }
+            
+            EmptyView()
+                .flex_height(10)
+            
+            Button.init(action: {
+                print("I am clicked again")
+            }) { () -> Text in
+                Text("Hello World")
+            }
             
             HStack {
-                HStack()
+                Color.red
+                    .configure({
+                        $0.flex_width(50%)
+                        $0.flex_height(100%)
+                    })
+                Color.blue
+                    .configure({
+                        $0.flex_width(50%)
+                        $0.flex_height(100%)
+                    })
             }
-            .frame(height: 30)
-            .color(.blue)
-            
-            HStack {
-                VStack()
-                VStack()
-            }
-            .frame(height: 30)
-            .color(.red)
+            .configure({
+                $0.foregroundColor(.green)
+                $0.flex_height(100)
+            })
         }
-        .color(.cyan)
+        .configure({
+            $0.foregroundColor(.cyan)
+        })
     }
     
     override func loadView() {
@@ -46,4 +82,3 @@ class ViewController: UIViewController {
         print(view.frame)
     }
 }
-
