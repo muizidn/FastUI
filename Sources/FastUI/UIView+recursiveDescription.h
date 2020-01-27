@@ -1,10 +1,3 @@
-//
-//  UIView+recursiveDescription.h
-//  FastUI
-//
-//  Created by Muis on 27/01/20.
-//
-
 #ifndef UIView_recursiveDescription_h
 #define UIView_recursiveDescription_h
 

@@ -6,10 +6,11 @@ targets:
     settings:
       INFOPLIST_FILE: plists/Info.plist
       IOS_DEPLOYMENT_TARGET: 8.0
+      SWIFT_OBJC_BRIDGING_HEADER: $(SRCROOT)/Sources/FastUI/FastUI+Bridging-Header.h
     sources:
       - path: Sources/FastUI
         includes: 
-          - "*.swift"
+          - "*.{swift,h}"
     dependencies:
       - target: FastUIKit
       - carthage: ViewDSL

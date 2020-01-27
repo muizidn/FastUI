@@ -8,3 +8,9 @@ public struct EmptyView: SomeView, UIKitContainer {
         return Self.init(_view: view)
     }
 }
+
+public extension EmptyView {
+    init() {
+        self = Self.create(Self.UIKitView.init(), subViews: [])
+    }
+}

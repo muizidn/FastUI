@@ -27,8 +27,27 @@ class ViewController: UIViewController {
                 $0.flex_height(100)
             })
             
-            VStack()
+            EmptyView()
                 .flex_height(10)
+            
+            Text("Hello World")
+            
+            TextField("Say Your Name World!")
+            
+            SecureTextField()
+            
+            Button("Click Me!") {
+                print("I am clicked")
+            }
+            
+            EmptyView()
+                .flex_height(10)
+            
+            Button.init(action: {
+                print("I am clicked again")
+            }) { () -> Text in
+                Text("Hello World")
+            }
             
             HStack {
                 Color.red

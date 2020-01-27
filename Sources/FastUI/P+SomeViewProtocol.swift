@@ -14,18 +14,8 @@ extension SomeView {
         }
         return [self]
     }
-}
-
-public extension SomeView where Self: UIKitContainer {
-    init(@ViewBuilder builder: () -> SomeView) {
-        self = Self.create(Self.UIKitView.init(), subViews: builder().asSubviews())
-    }
     
-    init() {
-        self = Self.create(Self.UIKitView.init(), subViews: [])
-    }
-    
-    var debugDescription: String {
+    public var debugDescription: String {
         view.recursiveDescription()
     }
 }
