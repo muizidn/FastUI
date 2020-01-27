@@ -1,32 +1,70 @@
-//
-//  Color.swift
-//  FastUI
-//
-//  Created by Muis on 11/01/20.
-//
 
 import UIKit
 
-public struct Color {
-    let red: CGFloat
-    let green: CGFloat
-    let blue: CGFloat
-    let alpha: CGFloat
+public struct Color: SomeView, UIKitContainer {
+    public var view: UIView { return _view }
+    public let _view: UIView
+    public static func create(_ view: UIView, subViews: [SomeView]) -> Color {
+        subViews.forEach({
+            view.put($0.view)
+        })
+        return Self.init(_view: view)
+    }
 }
 
 extension Color {
-    func toUIColor() -> UIColor {
-        UIColor(red: red, green: green, blue: blue, alpha: alpha)
+    init(_ uiColor: UIColor) {
+        let view = UIView()
+        view.backgroundColor = uiColor
+        self = Self.init(_view: view)
+    }
+    
+    // init(NSColor)
+    // init(String, bundle: Bundle?)
+    
+    init(_ space: Color.RGBColorSpace = .sRGB, red: Double, green: Double, blue: Double, opacity: Double = 1) {
+        let color = UIColor.init(
+            red: CGFloat(red),
+            green: CGFloat(green),
+            blue: CGFloat(blue),
+            alpha: CGFloat(opacity)
+        )
+        self = Color.init(color)
+    }
+    init(_ space: Color.RGBColorSpace = .sRGB, white: Double, opacity: Double) {
+        let color = UIColor.init(
+            white: CGFloat(white),
+            alpha: CGFloat(opacity)
+        )
+        self = Color.init(color)
+    }
+    init(hue: Double, saturation: Double, brightness: Double, opacity: Double) {
+        let color = UIColor.init(
+            hue: CGFloat(hue),
+            saturation: CGFloat(saturation),
+            brightness: CGFloat(brightness),
+            alpha: CGFloat(opacity)
+        )
+        self = Color.init(color)
+    }
+
+}
+
+extension Color {
+    enum RGBColorSpace {
+        case sRGB
     }
 }
 
 extension Color: ExpressibleByStringLiteral {
     public init(stringLiteral value: String) {
         let rgba = hexStringToRGBA(hex: value)
-        red = rgba.red
-        green = rgba.green
-        blue = rgba.blue
-        alpha = rgba.alpha
+        self = Color.init(
+            red: Double(rgba.red),
+            green: Double(rgba.green),
+            blue: Double(rgba.blue),
+            opacity: Double(rgba.alpha)
+        )
     }
 }
 
@@ -45,7 +83,7 @@ public extension Color {
     static let orange: Color = "#FFA500" // 1.0, 0.5, 0.0 RGB
     static let purple: Color = "#6A0DAD"// 0.5, 0.0, 0.5 RGB
     static let brown: Color = "#964B00"// 0.6, 0.4, 0.2 RGB
-    static let clear: Color = Color.init(red: 0, green: 0, blue: 0, alpha: 0)
+    static let clear: Color = Color.init(red: 0, green: 0, blue: 0)
 }
 
 /// https://stackoverflow.com/a/27203596

@@ -10,29 +10,20 @@ import FastUI
 class ViewController: UIViewController {
     var body: SomeView {
         VStack {
-//            GeometryReader { geometry in
-//                HStack {
-//                    VStack()
-//                    VStack()
-//                }
-//            }
-//            .frame(height: 30)
-//            .color(.blue)
-            
             HStack {
                 HStack()
             }
             .frame(height: 30)
-            .color(.blue)
+            .foregroundColor(.blue)
             
             HStack {
                 VStack()
                 VStack()
             }
             .frame(height: 30)
-            .color(.red)
+            .foregroundColor(.red)
         }
-        .color(.cyan)
+        .foregroundColor(.cyan)
     }
     
     override func loadView() {
