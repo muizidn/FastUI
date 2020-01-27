@@ -6,6 +6,10 @@ Is this really fast?
 
 Ah, this is just a toy project 🙈
 
+## Wiki
+
+Reading is good. Let's read [the Wiki](https://github.com/muizidn/FastUI/wiki)
+
 ## Play?
 
 Limitations:
