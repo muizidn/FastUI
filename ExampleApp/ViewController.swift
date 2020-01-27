@@ -11,30 +11,45 @@ class ViewController: UIViewController {
     var body: SomeView {
         VStack {
             HStack {
-                HStack()
-                    .flex_width(50%)
-                    .foregroundColor(.brown)
-                HStack()
-                    .flex_width(50%)
-                    .foregroundColor(.green)
+                Color.red
+                    .configure({
+                        $0.flex_width(50%)
+                        $0.flex_height(100%)
+                    })
+                Color.blue
+                    .configure({
+                        $0.flex_width(50%)
+                        $0.flex_height(100%)
+                    })
             }
-            .foregroundColor(.red)
-            .flex_height(100)
-            HStack {
-                VStack()
-            }
-            .foregroundColor(.blue)
-            .flex_height(100)
+            .configure({
+                $0.foregroundColor(.black)
+                $0.flex_height(100)
+            })
+            
+            VStack()
+                .flex_height(10)
+            
             HStack {
                 Color.red
-                    .flex({ flex in
-                        flex.width(100%)
-                            .height(100%) })
-                    .foregroundColor(.brown)
+                    .configure({
+                        $0.flex_width(50%)
+                        $0.flex_height(100%)
+                    })
+                Color.blue
+                    .configure({
+                        $0.flex_width(50%)
+                        $0.flex_height(100%)
+                    })
             }
-            .flex({ $0.height(100) })
+            .configure({
+                $0.foregroundColor(.green)
+                $0.flex_height(100)
+            })
         }
-        .foregroundColor(.cyan)
+        .configure({
+            $0.foregroundColor(.cyan)
+        })
     }
     
     override func loadView() {

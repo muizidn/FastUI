@@ -1,6 +1,7 @@
 
 import UIKit
 
+
 public struct Color: SomeView, UIKitContainer {
     public var view: UIView { return _view }
     public let _view: UIView
@@ -12,7 +13,7 @@ public struct Color: SomeView, UIKitContainer {
     }
 }
 
-extension Color {
+public extension Color {
     init(_ uiColor: UIColor) {
         let view = UIView()
         view.backgroundColor = uiColor
@@ -50,7 +51,7 @@ extension Color {
 
 }
 
-extension Color {
+public extension Color {
     enum RGBColorSpace {
         case sRGB
     }
@@ -69,21 +70,18 @@ extension Color: ExpressibleByStringLiteral {
 }
 
 public extension Color {
-    static let black: Color = "#000000"// 0.0 white
-    //    static let darkGray: Color = // 0.333 white
-    //    static let lightGray: Color = // 0.667 white
-    static let white: Color = "#FFFFFF"// 1.0 white
-    //    static let gray: Color = // 0.5 white
-    static let red: Color = "#FF0000"// 1.0, 0.0, 0.0 RGB
-    static let green: Color = "#00FF00"// 0.0, 1.0, 0.0 RGB
-    static let blue: Color = "#0000FF"// 0.0, 0.0, 1.0 RGB
-    static let cyan: Color = "#00FFFF"// 0.0, 1.0, 1.0 RGB
-    static let yellow: Color = "#FFFF00"// 1.0, 1.0, 0.0 RGB
-    static let magenta: Color = "#FF00FF"// 1.0, 0.0, 1.0 RGB
-    static let orange: Color = "#FFA500" // 1.0, 0.5, 0.0 RGB
-    static let purple: Color = "#6A0DAD"// 0.5, 0.0, 0.5 RGB
-    static let brown: Color = "#964B00"// 0.6, 0.4, 0.2 RGB
-    static let clear: Color = Color.init(red: 0, green: 0, blue: 0)
+    static var black: Color { get { "#000000" } }// 0.0 white
+    static var white: Color { get { "#FFFFFF" } }// 1.0 white
+    static var red: Color { get { "#FF0000" } }// 1.0, 0.0, 0.0 RGB
+    static var green: Color { get { "#00FF00" } }// 0.0, 1.0, 0.0 RGB
+    static var blue: Color { get { "#0000FF" } }// 0.0, 0.0, 1.0 RGB
+    static var cyan: Color { get { "#00FFFF" } }// 0.0, 1.0, 1.0 RGB
+    static var yellow: Color { get { "#FFFF00" } }// 1.0, 1.0, 0.0 RGB
+    static var magenta: Color { get { "#FF00FF" } }// 1.0, 0.0, 1.0 RGB
+    static var orange: Color { get { "#FFA500" } } // 1.0, 0.5, 0.0 RGB
+    static var purple: Color { get { "#6A0DAD" } }// 0.5, 0.0, 0.5 RGB
+    static var brown: Color { get { "#964B00" } }// 0.6, 0.4, 0.2 RGB
+    static var clear: Color { get { Color.init(red: 0, green: 0, blue: 0) }}
 }
 
 /// https://stackoverflow.com/a/27203596

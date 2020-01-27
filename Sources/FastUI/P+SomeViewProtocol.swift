@@ -26,6 +26,6 @@ public extension SomeView where Self: UIKitContainer {
     }
     
     var debugDescription: String {
-        "view.recursiveDescription()"
+        view.recursiveDescription()
     }
 }
