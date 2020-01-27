@@ -6,6 +6,9 @@ public protocol SomeView: CustomDebugStringConvertible {
 
 extension SomeView {
     func asSubviews() -> [SomeView] {
+        if self is EmptyView {
+            return []
+        }
         if let view = self as? TupleView {
             return view._view.contents
         }
@@ -15,12 +18,7 @@ extension SomeView {
 
 public extension SomeView where Self: UIKitContainer {
     init(@ViewBuilder builder: () -> SomeView) {
-        self = Self.create(.init(), subViews: builder().asSubviews())
-    }
-    
-    init(@ViewBuilder builder: () -> Void) {
-        builder()
-        self = Self.init()
+        self = Self.create(Self.UIKitView.init(), subViews: builder().asSubviews())
     }
     
     init() {

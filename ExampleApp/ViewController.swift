@@ -9,19 +9,7 @@ import FastUI
 
 class ViewController: UIViewController {
     var body: SomeView {
-        VStack {
-            HStack {
-                HStack()
-            }
-
-            HStack {}
-            VStack {}
-            
-            HStack {
-                VStack()
-                VStack()
-            }
-        }
+        testOnly()
     }
     
     override func loadView() {

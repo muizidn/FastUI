@@ -3,36 +3,28 @@ import FastUIKit
 
 @_functionBuilder
 public struct ViewBuilder {
-    public static func buildBlock() -> Void {}
     
-    public static func buildBlock(_ view: SomeView) -> SomeView {
-        view
-    }
+    public static func buildBlock(_ view: SomeView) -> SomeView { view }
     
     public static func buildBlock(_ views: SomeView...) -> SomeView {
-        return TupleView.create(TupleView.UIKitView.init(), subViews: views)
+        TupleView.create(TupleView.UIKitView.init(), subViews: views)
     }
     
-    public static func buildBlock(view: TupleView) -> SomeView {
-        return view
-    }
+    public static func buildBlock(view: TupleView) -> SomeView { view }
 }
 
-
-func exte() {
-    TheInit {
+public func testOnly() -> SomeView {
+    VStack {
         VStack {
             HStack()
         }
-        VStack()
-        VStack()
+        .frame(height: 30)
+        .foregroundColor(.red)
+        HStack {
+            VStack()
+        }
+        .frame(height: 30)
+        .foregroundColor(.blue)
     }
-}
-
-func TheInit(@ViewBuilder b: () -> SomeView) {
-    
-}
-
-func TheInit(@ViewBuilder b: () -> Void) {
-    
+    .foregroundColor(.cyan)
 }
