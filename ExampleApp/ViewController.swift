@@ -10,18 +10,21 @@ import FastUI
 class ViewController: UIViewController {
     var body: SomeView {
         VStack {
-            HStack {
-                HStack()
-            }
-            .frame(height: 30)
-            .foregroundColor(.blue)
-            
-            HStack {
-                VStack()
-                VStack()
-            }
-            .frame(height: 30)
-            .foregroundColor(.red)
+//            HStack {
+//                HStack()
+//            }
+//            .frame(height: 30)
+//            .foregroundColor(.blue)
+
+//            HStack {
+//                
+//            }
+//            HStack {
+//                VStack()
+//                VStack()
+//            }
+//            .frame(height: 30)
+//            .foregroundColor(.red)
         }
         .foregroundColor(.cyan)
     }
@@ -37,4 +40,3 @@ class ViewController: UIViewController {
         print(view.frame)
     }
 }
-

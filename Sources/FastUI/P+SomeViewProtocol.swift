@@ -5,12 +5,21 @@ public protocol SomeView: CustomDebugStringConvertible {
 }
 
 public extension SomeView where Self: UIKitContainer {
-    init(@ViewBuilder<Self> builder: () -> Self) {
-        self = builder()
+    init(@ViewBuilder builder: () -> SomeView) {
+        self = Self.create(.init(), subViews: [builder()] )
+    }
+    
+    init(@ViewBuilder builder: () -> [SomeView]) {
+        self = Self.create(.init(), subViews: builder() )
+    }
+    
+    init(builder: () -> Void) {
+        builder()
+        self = Self.init()
     }
     
     init() {
-        self = Self.create(Self.UIKitView.init(),subViews: [])
+        self = Self.create(Self.UIKitView.init(), subViews: [])
     }
     
     var debugDescription: String {
