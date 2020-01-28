@@ -1,12 +1,12 @@
 import FastUIKit
 
-extension _SecureTextField: SomeView {
-    public var body: SomeView { self }
+extension _SecureTextField: View {
+    public var body: View { self }
 }
 
-public struct SecureTextField: SomeView {
+public struct SecureTextField: View {
     private let view: _SecureTextField
-    public var body: SomeView { view }
+    public var body: View { view }
 }
 
 public extension SecureTextField {

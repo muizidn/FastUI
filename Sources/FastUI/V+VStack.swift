@@ -1,17 +1,17 @@
 import FastUIKit
 
-extension _VStack: SomeView {
-    public var body: SomeView { self }
+extension _VStack: View {
+    public var body: View { self }
 }
 
-public struct VStack: SomeView {
+public struct VStack: View {
     private let view: _VStack
     
-    public var body: SomeView { view }
+    public var body: View { view }
 }
 
 public extension VStack {
-    init(@ViewBuilder builder: () -> SomeView) {
+    init(@ViewBuilder builder: () -> View) {
         let view = _VStack()
         let someviews = builder().asSubviews()
         someviews.forEach { (v) in

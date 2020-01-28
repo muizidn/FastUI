@@ -1,10 +1,10 @@
 import UIKit
 
-public protocol SomeView: CustomDebugStringConvertible {
-    var body: SomeView { get }
+public protocol View: CustomDebugStringConvertible {
+    var body: View { get }
 }
 
-public extension SomeView {
+public extension View {
     func view<T>(_ caller: T.Type = T.self, file: StaticString = #file, fn: StaticString = #function, line: Int = #line) -> UIView {
         var log = ""
         if ProcessInfo.processInfo.environment["FASTUI_PARSE_VIEW"] != nil {
@@ -23,19 +23,19 @@ public extension SomeView {
     }
 }
 
-extension SomeView  {
+extension View  {
     public var debugDescription: String {
         return "\(Self.self)"
     }
     
-    func asSubviews() -> [SomeView] {
-        if let arr = self as? [SomeView] {
+    func asSubviews() -> [View] {
+        if let arr = self as? [View] {
             return arr
         }
         return [self]
     }
 }
 
-extension Array: SomeView where Element: SomeView {
-    public var body: SomeView { self }
+extension Array: View where Element: View {
+    public var body: View { self }
 }

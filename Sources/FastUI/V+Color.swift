@@ -1,9 +1,9 @@
 import UIKit
 
-final class _Color: UIView, SomeView {
-    var body: SomeView { self }
+final class _Color: UIView, View {
+    var body: View { self }
 }
-public struct Color: SomeView {
+public struct Color: View {
     private let view: _Color
     
     init(_ uiColor: UIColor) {
@@ -12,7 +12,7 @@ public struct Color: SomeView {
         self.view = view
     }
     
-    public var body: SomeView { view }
+    public var body: View { view }
 }
 
 public extension Color {

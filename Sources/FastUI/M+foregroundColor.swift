@@ -1,8 +1,8 @@
 
 import Foundation
 
-public extension SomeView {
-    @discardableResult func foregroundColor(_ color: Color?) -> Self {
-        flex_backgroundColor(color?.view(Self.self).backgroundColor ?? .clear)
+public extension View {
+    @discardableResult @inlinable func foregroundColor(_ color: Color?) -> Self {
+        _flex_backgroundColor(color?.view(Self.self).backgroundColor ?? .clear)
     }
 }

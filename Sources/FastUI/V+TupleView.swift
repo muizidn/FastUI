@@ -1,13 +1,13 @@
 
-typealias TupleView = [_SomeView]
+typealias TupleView = [_View]
 
 extension TupleView {
-    init(_ views: [SomeView]) {
-        self = views.map({ _SomeView(s: $0)})
+    init(_ views: [View]) {
+        self = views.map({ _View(s: $0)})
     }
 }
 
-struct _SomeView: SomeView {
-    let s: SomeView
-    var body: SomeView { s }
+struct _View: View {
+    let s: View
+    var body: View { s }
 }

@@ -1,12 +1,12 @@
 import UIKit
 
-extension _EmptyView: SomeView {
-    var body: SomeView { self }
+extension _EmptyView: View {
+    var body: View { self }
 }
 
-public struct EmptyView: SomeView {
+public struct EmptyView: View {
     private let view: _EmptyView
-    public var body: SomeView { view }
+    public var body: View { view }
 }
 
 public extension EmptyView {

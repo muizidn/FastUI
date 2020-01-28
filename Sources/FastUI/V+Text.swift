@@ -1,14 +1,14 @@
 import FastUIKit
 
 
-extension _Text: SomeView {
-    public var body: SomeView { self }
+extension _Text: View {
+    public var body: View { self }
 }
 
-public struct Text: SomeView {
+public struct Text: View {
     private let view: _Text
     
-    public var body: SomeView { view }
+    public var body: View { view }
 }
 
 public extension Text {

@@ -1,12 +1,12 @@
 import FastUIKit
 
-extension _Button: SomeView {
-    public var body: SomeView { self }
+extension _Button: View {
+    public var body: View { self }
 }
 
-public struct Button: SomeView {
+public struct Button: View {
     private let view: _Button
-    public var body: SomeView { view }
+    public var body: View { view }
 }
 
 public extension Button {

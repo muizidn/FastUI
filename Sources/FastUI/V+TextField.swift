@@ -1,12 +1,12 @@
 import FastUIKit
 
-extension _TextField: SomeView {
-    public var body: SomeView { self }
+extension _TextField: View {
+    public var body: View { self }
 }
 
-public struct TextField: SomeView {
+public struct TextField: View {
     private let view: _TextField
-    public var body: SomeView { view }
+    public var body: View { view }
     
     
 }
