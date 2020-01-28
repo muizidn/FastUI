@@ -17,3 +17,7 @@ Limitations:
  * You can't write `VStack {}`, you should write `VStack()`
 
 Or make a PR, I'll happy to see your smart idea! 頑張るぞ！😅
+
+## Screenshoot
+
+![xcode-debugger](.github/res/xcode-debugger.png)

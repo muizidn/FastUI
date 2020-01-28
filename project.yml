@@ -5,21 +5,19 @@ targets:
     platform: iOS
     settings:
       INFOPLIST_FILE: plists/Info.plist
-      IOS_DEPLOYMENT_TARGET: 8.0
-      SWIFT_OBJC_BRIDGING_HEADER: $(SRCROOT)/Sources/FastUI/FastUI+Bridging-Header.h
+      IPHONEOS_DEPLOYMENT_TARGET: 8.0
     sources:
       - path: Sources/FastUI
         includes: 
-          - "*.{swift,h}"
+          - "*.{swift}"
     dependencies:
       - carthage: FlexLayout
-      - carthage: ViewDSL
   ExampleApp:
     type: application
     platform: iOS
     settings:
       INFOPLIST_FILE: ExampleApp/Info.plist
-      IOS_DEPLOYMENT_TARGET: 10.0
+      IPHONEOS_DEPLOYMENT_TARGET: 8.0
     sources: ExampleApp
     dependencies:
       - target: FastUI
