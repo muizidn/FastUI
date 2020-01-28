@@ -1,25 +1,24 @@
-import Foundation
 import FastUIKit
 
-public struct Button: SomeView, UIKitContainer {
-    public var view: UIView { return _view }
-    public let _view: FastUIKit.Button
-    public static func create(_ view: FastUIKit.Button, subViews: [SomeView]) -> Button {
-        if !subViews.isEmpty { fatalError() }
-        return Self.init(_view: view)
-    }
+extension _Button: SomeView {
+    public var body: SomeView { self }
+}
+
+public struct Button: SomeView {
+    private let view: _Button
+    public var body: SomeView { view }
 }
 
 public extension Button {
     init<S>(_ title: S, action: @escaping () -> Void) where S: StringProtocol {
-        self = Self.create(UIKitView.init(), subViews: [])
-        _view.setTitle(String(title), for: .normal)
-        _view.action = action
+        self = Self.init(view: _Button())
+        view.setTitle(String(title), for: .normal)
+        view.action = action
     }
     
     init(action: @escaping () -> Void, @ViewBuilder label: () -> Text) {
-        self = Self.create(UIKitView.init(), subViews: [])
-        _view.action = action
-        _view.label = label()._view
+        self = Self.init(view: _Button())
+        self.view.action = action
+        self.view.label = label().view(Self.self) as! UILabel
     }
 }

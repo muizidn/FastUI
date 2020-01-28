@@ -1,20 +1,22 @@
-
-import UIKit
 import FastUIKit
 
-public struct VStack: SomeView & UIKitContainer {
-    public var view: UIView { return _view }
-    public let _view: FastUIKit.VStack
-    public static func create(_ view: FastUIKit.VStack, subViews: [SomeView]) -> VStack {
-        subViews.forEach({
-            view.put($0.view)
-        })
-        return Self.init(_view: view)
-    }
+extension _VStack: SomeView {
+    public var body: SomeView { self }
 }
 
-extension VStack {
-    public init(@ViewBuilder builder: () -> SomeView) {
-        self = Self.create(Self.UIKitView.init(), subViews: builder().asSubviews())
+public struct VStack: SomeView {
+    private let view: _VStack
+    
+    public var body: SomeView { view }
+}
+
+public extension VStack {
+    init(@ViewBuilder builder: () -> SomeView) {
+        let view = _VStack()
+        let someviews = builder().asSubviews()
+        someviews.forEach { (v) in
+            view.add(v.view(Self.self))
+        }
+        self = Self.init(view: view)
     }
 }

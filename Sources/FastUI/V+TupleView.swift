@@ -1,17 +1,13 @@
-import Foundation
-import FastUIKit
 
-public struct TupleView: SomeView, UIKitContainer, ExpressibleByArrayLiteral {
-    public var view: UIView { return _view }
-    public let _view: FastUIKit.TupleView<SomeView>
-    public static func create(_ view: FastUIKit.TupleView<SomeView>, subViews: [SomeView]) -> TupleView {
-        view.contents = subViews
-        return Self.init(_view: view)
+typealias TupleView = [_SomeView]
+
+extension TupleView {
+    init(_ views: [SomeView]) {
+        self = views.map({ _SomeView(s: $0)})
     }
 }
 
-extension TupleView {
-    public init(arrayLiteral elements: SomeView...) {
-        self = Self.create(UIKitView.init(), subViews: elements)
-    }
+struct _SomeView: SomeView {
+    let s: SomeView
+    var body: SomeView { s }
 }

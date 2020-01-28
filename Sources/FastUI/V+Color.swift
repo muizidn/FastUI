@@ -1,25 +1,21 @@
-
 import UIKit
 
-
-public struct Color: SomeView, UIKitContainer {
-    public var view: UIView { return _view }
-    public let _view: UIView
-    public static func create(_ view: UIView, subViews: [SomeView]) -> Color {
-        subViews.forEach({
-            view.put($0.view)
-        })
-        return Self.init(_view: view)
+final class _Color: UIView, SomeView {
+    var body: SomeView { self }
+}
+public struct Color: SomeView {
+    private let view: _Color
+    
+    init(_ uiColor: UIColor) {
+        let view = _Color()
+        view.backgroundColor = uiColor
+        self.view = view
     }
+    
+    public var body: SomeView { view }
 }
 
 public extension Color {
-    init(_ uiColor: UIColor) {
-        let view = UIView()
-        view.backgroundColor = uiColor
-        self = Self.init(_view: view)
-    }
-    
     // init(NSColor)
     // init(String, bundle: Bundle?)
     

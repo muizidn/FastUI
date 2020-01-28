@@ -2,420 +2,420 @@ import Foundation
 @_exported import FlexLayout
 
 public extension SomeView {
-    @discardableResult @inlinable func flex(_ closure: (Flex) -> Void) -> Self {
-        closure(view.flex)
+    @discardableResult func flex(_ closure: (Flex) -> Void) -> Self {
+        closure(view(Self.self).flex)
         return self
     }
 }
 
 public extension SomeView {
-    @discardableResult @inlinable func flex_isIncludedInLayout(_ included: Bool) -> Self {
-        view.flex.isIncludedInLayout(included)
+    @discardableResult func flex_isIncludedInLayout(_ included: Bool) -> Self {
+        view(Self.self).flex.isIncludedInLayout(included)
         return self
     }
     
-    @discardableResult @inlinable func flex_markDirty() -> Self {
-        view.flex.markDirty()
+    @discardableResult func flex_markDirty() -> Self {
+        view(Self.self).flex.markDirty()
         return self
     }
     
-    @discardableResult @inlinable func flex_direction(_ value: FlexLayout.Flex.Direction) -> Self {
-        view.flex.direction(value)
+    @discardableResult func flex_direction(_ value: FlexLayout.Flex.Direction) -> Self {
+        view(Self.self).flex.direction(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_wrap(_ value: FlexLayout.Flex.Wrap) -> Self {
-        view.flex.wrap(value)
+    @discardableResult func flex_wrap(_ value: FlexLayout.Flex.Wrap) -> Self {
+        view(Self.self).flex.wrap(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_layoutDirection(_ value: FlexLayout.Flex.LayoutDirection) -> Self {
-        view.flex.layoutDirection(value)
+    @discardableResult func flex_layoutDirection(_ value: FlexLayout.Flex.LayoutDirection) -> Self {
+        view(Self.self).flex.layoutDirection(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_justifyContent(_ value: FlexLayout.Flex.JustifyContent) -> Self {
-        view.flex.justifyContent(value)
+    @discardableResult func flex_justifyContent(_ value: FlexLayout.Flex.JustifyContent) -> Self {
+        view(Self.self).flex.justifyContent(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_alignItems(_ value: FlexLayout.Flex.AlignItems) -> Self {
-        view.flex.alignItems(value)
+    @discardableResult func flex_alignItems(_ value: FlexLayout.Flex.AlignItems) -> Self {
+        view(Self.self).flex.alignItems(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_alignSelf(_ value: FlexLayout.Flex.AlignSelf) -> Self {
-        view.flex.alignSelf(value)
+    @discardableResult func flex_alignSelf(_ value: FlexLayout.Flex.AlignSelf) -> Self {
+        view(Self.self).flex.alignSelf(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_alignContent(_ value: FlexLayout.Flex.AlignContent) -> Self {
-        view.flex.alignContent(value)
+    @discardableResult func flex_alignContent(_ value: FlexLayout.Flex.AlignContent) -> Self {
+        view(Self.self).flex.alignContent(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_grow(_ value: CGFloat) -> Self {
-        view.flex.grow(value)
+    @discardableResult func flex_grow(_ value: CGFloat) -> Self {
+        view(Self.self).flex.grow(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_shrink(_ value: CGFloat) -> Self {
-        view.flex.shrink(value)
+    @discardableResult func flex_shrink(_ value: CGFloat) -> Self {
+        view(Self.self).flex.shrink(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_basis(_ value: CGFloat?) -> Self {
-        view.flex.basis(value)
+    @discardableResult func flex_basis(_ value: CGFloat?) -> Self {
+        view(Self.self).flex.basis(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_basis(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.basis(percent)
+    @discardableResult func flex_basis(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.basis(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_width(_ value: CGFloat?) -> Self {
-        view.flex.width(value)
+    @discardableResult func flex_width(_ value: CGFloat?) -> Self {
+        view(Self.self).flex.width(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_width(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.width(percent)
+    @discardableResult func flex_width(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.width(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_height(_ value: CGFloat?) -> Self {
-        view.flex.height(value)
+    @discardableResult func flex_height(_ value: CGFloat?) -> Self {
+        view(Self.self).flex.height(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_height(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.height(percent)
+    @discardableResult func flex_height(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.height(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_size(_ size: CGSize?) -> Self {
-        view.flex.size(size)
+    @discardableResult func flex_size(_ size: CGSize?) -> Self {
+        view(Self.self).flex.size(size)
         return self
     }
     
-    @discardableResult @inlinable func flex_size(_ sideLength: CGFloat) -> Self {
-        view.flex.size(sideLength)
+    @discardableResult func flex_size(_ sideLength: CGFloat) -> Self {
+        view(Self.self).flex.size(sideLength)
         return self
     }
     
-    @discardableResult @inlinable func flex_minWidth(_ value: CGFloat?) -> Self {
-        view.flex.minWidth(value)
+    @discardableResult func flex_minWidth(_ value: CGFloat?) -> Self {
+        view(Self.self).flex.minWidth(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_minWidth(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.minWidth(percent)
+    @discardableResult func flex_minWidth(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.minWidth(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_maxWidth(_ value: CGFloat?) -> Self {
-        view.flex.maxWidth(value)
+    @discardableResult func flex_maxWidth(_ value: CGFloat?) -> Self {
+        view(Self.self).flex.maxWidth(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_maxWidth(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.maxWidth(percent)
+    @discardableResult func flex_maxWidth(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.maxWidth(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_minHeight(_ value: CGFloat?) -> Self {
-        view.flex.minHeight(value)
+    @discardableResult func flex_minHeight(_ value: CGFloat?) -> Self {
+        view(Self.self).flex.minHeight(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_minHeight(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.minHeight(percent)
+    @discardableResult func flex_minHeight(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.minHeight(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_maxHeight(_ value: CGFloat?) -> Self {
-        view.flex.maxHeight(value)
+    @discardableResult func flex_maxHeight(_ value: CGFloat?) -> Self {
+        view(Self.self).flex.maxHeight(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_maxHeight(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.maxHeight(percent)
+    @discardableResult func flex_maxHeight(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.maxHeight(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_aspectRatio(_ value: CGFloat?) -> Self {
-        view.flex.aspectRatio(value)
+    @discardableResult func flex_aspectRatio(_ value: CGFloat?) -> Self {
+        view(Self.self).flex.aspectRatio(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_aspectRatio(of imageView: UIImageView) -> Self {
-        view.flex.aspectRatio(of: imageView)
+    @discardableResult func flex_aspectRatio(of imageView: UIImageView) -> Self {
+        view(Self.self).flex.aspectRatio(of: imageView)
         return self
     }
     
-    @discardableResult @inlinable func flex_position(_ value: FlexLayout.Flex.Position) -> Self {
-        view.flex.position(value)
+    @discardableResult func flex_position(_ value: FlexLayout.Flex.Position) -> Self {
+        view(Self.self).flex.position(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_left(_ value: CGFloat) -> Self {
-        view.flex.left(value)
+    @discardableResult func flex_left(_ value: CGFloat) -> Self {
+        view(Self.self).flex.left(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_left(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.left(percent)
+    @discardableResult func flex_left(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.left(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_top(_ value: CGFloat) -> Self {
-        view.flex.top(value)
+    @discardableResult func flex_top(_ value: CGFloat) -> Self {
+        view(Self.self).flex.top(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_top(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.top(percent)
+    @discardableResult func flex_top(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.top(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_right(_ value: CGFloat) -> Self {
-        view.flex.right(value)
+    @discardableResult func flex_right(_ value: CGFloat) -> Self {
+        view(Self.self).flex.right(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_right(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.right(percent)
+    @discardableResult func flex_right(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.right(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_bottom(_ value: CGFloat) -> Self {
-        view.flex.bottom(value)
+    @discardableResult func flex_bottom(_ value: CGFloat) -> Self {
+        view(Self.self).flex.bottom(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_bottom(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.bottom(percent)
+    @discardableResult func flex_bottom(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.bottom(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_start(_ value: CGFloat) -> Self {
-        view.flex.start(value)
+    @discardableResult func flex_start(_ value: CGFloat) -> Self {
+        view(Self.self).flex.start(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_start(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.start(percent)
+    @discardableResult func flex_start(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.start(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_end(_ value: CGFloat) -> Self {
-        view.flex.end(value)
+    @discardableResult func flex_end(_ value: CGFloat) -> Self {
+        view(Self.self).flex.end(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_end(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.end(percent)
+    @discardableResult func flex_end(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.end(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_horizontally(_ value: CGFloat) -> Self {
-        view.flex.horizontally(value)
+    @discardableResult func flex_horizontally(_ value: CGFloat) -> Self {
+        view(Self.self).flex.horizontally(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_horizontally(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.horizontally(percent)
+    @discardableResult func flex_horizontally(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.horizontally(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_vertically(_ value: CGFloat) -> Self {
-        view.flex.vertically(value)
+    @discardableResult func flex_vertically(_ value: CGFloat) -> Self {
+        view(Self.self).flex.vertically(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_vertically(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.vertically(percent)
+    @discardableResult func flex_vertically(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.vertically(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_all(_ value: CGFloat) -> Self {
-        view.flex.all(value)
+    @discardableResult func flex_all(_ value: CGFloat) -> Self {
+        view(Self.self).flex.all(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_all(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.all(percent)
+    @discardableResult func flex_all(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.all(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginTop(_ value: CGFloat) -> Self {
-        view.flex.marginTop(value)
+    @discardableResult func flex_marginTop(_ value: CGFloat) -> Self {
+        view(Self.self).flex.marginTop(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginTop(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.marginTop(percent)
+    @discardableResult func flex_marginTop(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.marginTop(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginLeft(_ value: CGFloat) -> Self {
-        view.flex.marginLeft(value)
+    @discardableResult func flex_marginLeft(_ value: CGFloat) -> Self {
+        view(Self.self).flex.marginLeft(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginLeft(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.marginLeft(percent)
+    @discardableResult func flex_marginLeft(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.marginLeft(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginBottom(_ value: CGFloat) -> Self {
-        view.flex.marginBottom(value)
+    @discardableResult func flex_marginBottom(_ value: CGFloat) -> Self {
+        view(Self.self).flex.marginBottom(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginBottom(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.marginBottom(percent)
+    @discardableResult func flex_marginBottom(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.marginBottom(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginRight(_ value: CGFloat) -> Self {
-        view.flex.marginRight(value)
+    @discardableResult func flex_marginRight(_ value: CGFloat) -> Self {
+        view(Self.self).flex.marginRight(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginRight(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.marginRight(percent)
+    @discardableResult func flex_marginRight(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.marginRight(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginStart(_ value: CGFloat) -> Self {
-        view.flex.marginStart(value)
+    @discardableResult func flex_marginStart(_ value: CGFloat) -> Self {
+        view(Self.self).flex.marginStart(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginStart(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.marginStart(percent)
+    @discardableResult func flex_marginStart(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.marginStart(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginEnd(_ value: CGFloat) -> Self {
-        view.flex.marginEnd(value)
+    @discardableResult func flex_marginEnd(_ value: CGFloat) -> Self {
+        view(Self.self).flex.marginEnd(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginEnd(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.marginEnd(percent)
+    @discardableResult func flex_marginEnd(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.marginEnd(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginHorizontal(_ value: CGFloat) -> Self {
-        view.flex.marginHorizontal(value)
+    @discardableResult func flex_marginHorizontal(_ value: CGFloat) -> Self {
+        view(Self.self).flex.marginHorizontal(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginHorizontal(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.marginHorizontal(percent)
+    @discardableResult func flex_marginHorizontal(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.marginHorizontal(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginVertical(_ value: CGFloat) -> Self {
-        view.flex.marginVertical(value)
+    @discardableResult func flex_marginVertical(_ value: CGFloat) -> Self {
+        view(Self.self).flex.marginVertical(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_marginVertical(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.marginVertical(percent)
+    @discardableResult func flex_marginVertical(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.marginVertical(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_margin(_ insets: UIEdgeInsets) -> Self {
-        view.flex.margin(insets)
+    @discardableResult func flex_margin(_ insets: UIEdgeInsets) -> Self {
+        view(Self.self).flex.margin(insets)
         return self
     }
     
-    @discardableResult @inlinable func flex_margin(_ value: CGFloat) -> Self {
-        view.flex.margin(value)
+    @discardableResult func flex_margin(_ value: CGFloat) -> Self {
+        view(Self.self).flex.margin(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_margin(_ percent: FlexLayout.FPercent) -> Self {
-        view.flex.margin(percent)
+    @discardableResult func flex_margin(_ percent: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.margin(percent)
         return self
     }
     
-    @discardableResult @inlinable func flex_margin(_ top: CGFloat, _ left: CGFloat, _ bottom: CGFloat, _ right: CGFloat) -> Self {
-        view.flex.margin(top, left, bottom, right)
+    @discardableResult func flex_margin(_ top: CGFloat, _ left: CGFloat, _ bottom: CGFloat, _ right: CGFloat) -> Self {
+        view(Self.self).flex.margin(top, left, bottom, right)
         return self
     }
     
-    @discardableResult @inlinable func flex_margin(_ top: FlexLayout.FPercent, _ left: FlexLayout.FPercent, _ bottom: FlexLayout.FPercent, _ right: FlexLayout.FPercent) -> Self {
-        view.flex.margin(top, left, bottom, right)
+    @discardableResult func flex_margin(_ top: FlexLayout.FPercent, _ left: FlexLayout.FPercent, _ bottom: FlexLayout.FPercent, _ right: FlexLayout.FPercent) -> Self {
+        view(Self.self).flex.margin(top, left, bottom, right)
         return self
     }
     
-    @discardableResult @inlinable func flex_paddingTop(_ value: CGFloat) -> Self {
-        view.flex.paddingTop(value)
+    @discardableResult func flex_paddingTop(_ value: CGFloat) -> Self {
+        view(Self.self).flex.paddingTop(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_paddingLeft(_ value: CGFloat) -> Self {
-        view.flex.paddingLeft(value)
+    @discardableResult func flex_paddingLeft(_ value: CGFloat) -> Self {
+        view(Self.self).flex.paddingLeft(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_paddingBottom(_ value: CGFloat) -> Self {
-        view.flex.paddingBottom(value)
+    @discardableResult func flex_paddingBottom(_ value: CGFloat) -> Self {
+        view(Self.self).flex.paddingBottom(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_paddingRight(_ value: CGFloat) -> Self {
-        view.flex.paddingRight(value)
+    @discardableResult func flex_paddingRight(_ value: CGFloat) -> Self {
+        view(Self.self).flex.paddingRight(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_paddingStart(_ value: CGFloat) -> Self {
-        view.flex.paddingStart(value)
+    @discardableResult func flex_paddingStart(_ value: CGFloat) -> Self {
+        view(Self.self).flex.paddingStart(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_paddingEnd(_ value: CGFloat) -> Self {
-        view.flex.paddingEnd(value)
+    @discardableResult func flex_paddingEnd(_ value: CGFloat) -> Self {
+        view(Self.self).flex.paddingEnd(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_paddingHorizontal(_ value: CGFloat) -> Self {
-        view.flex.paddingHorizontal(value)
+    @discardableResult func flex_paddingHorizontal(_ value: CGFloat) -> Self {
+        view(Self.self).flex.paddingHorizontal(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_paddingVertical(_ value: CGFloat) -> Self {
-        view.flex.paddingVertical(value)
+    @discardableResult func flex_paddingVertical(_ value: CGFloat) -> Self {
+        view(Self.self).flex.paddingVertical(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_padding(_ insets: UIEdgeInsets) -> Self {
-        view.flex.padding(insets)
+    @discardableResult func flex_padding(_ insets: UIEdgeInsets) -> Self {
+        view(Self.self).flex.padding(insets)
         return self
     }
     
-    @discardableResult @inlinable func flex_padding(_ value: CGFloat) -> Self {
-        view.flex.padding(value)
+    @discardableResult func flex_padding(_ value: CGFloat) -> Self {
+        view(Self.self).flex.padding(value)
         return self
     }
     
-    @discardableResult @inlinable func flex_padding(_ top: CGFloat, _ left: CGFloat, _ bottom: CGFloat, _ right: CGFloat) -> Self {
-        view.flex.padding(top, left, bottom, right)
+    @discardableResult func flex_padding(_ top: CGFloat, _ left: CGFloat, _ bottom: CGFloat, _ right: CGFloat) -> Self {
+        view(Self.self).flex.padding(top, left, bottom, right)
         return self
     }
     
-    @discardableResult @inlinable func flex_backgroundColor(_ color: UIColor) -> Self {
-        view.flex.backgroundColor(color)
+    @discardableResult func flex_backgroundColor(_ color: UIColor) -> Self {
+        view(Self.self).flex.backgroundColor(color)
         return self
     }
     
-    @discardableResult @inlinable func flex_display(_ value: FlexLayout.Flex.Display) -> Self {
-        view.flex.display(value)
+    @discardableResult func flex_display(_ value: FlexLayout.Flex.Display) -> Self {
+        view(Self.self).flex.display(value)
         return self
     }
 }

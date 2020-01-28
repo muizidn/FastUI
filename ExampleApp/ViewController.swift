@@ -16,7 +16,9 @@ class ViewController: UIViewController {
                         $0.flex_width(50%)
                         $0.flex_height(100%)
                     })
-                Color.blue
+                EmptyView()
+                    .flex_width(10)
+                Color.yellow
                     .configure({
                         $0.flex_width(50%)
                         $0.flex_height(100%)
@@ -26,6 +28,10 @@ class ViewController: UIViewController {
                 $0.foregroundColor(.black)
                 $0.flex_height(100)
             })
+
+            EmptyView()
+                .flex_height(10)
+                .foregroundColor(.red)
             
             EmptyView()
                 .flex_height(10)
@@ -73,7 +79,7 @@ class ViewController: UIViewController {
     
     override func loadView() {
         super.loadView()
-        view = body.view
+        view = body.view(Self.self)
     }
     
     override func viewDidLoad() {

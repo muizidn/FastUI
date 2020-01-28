@@ -1,17 +1,16 @@
-import Foundation
-import FastUIKit
+import UIKit
 
-public struct EmptyView: SomeView, UIKitContainer {
-    public var view: UIView { return _view }
-    public let _view: FastUIKit.EmptyView
-    public static func create(_ view: FastUIKit.EmptyView, subViews: [SomeView]) -> EmptyView {
-        if !subViews.isEmpty { fatalError() }
-        return Self.init(_view: view)
-    }
+extension _EmptyView: SomeView {
+    var body: SomeView { self }
+}
+
+public struct EmptyView: SomeView {
+    private let view: _EmptyView
+    public var body: SomeView { view }
 }
 
 public extension EmptyView {
     init() {
-        self = Self.create(Self.UIKitView.init(), subViews: [])
+        view = _EmptyView()
     }
 }

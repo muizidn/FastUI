@@ -1,10 +1,3 @@
-//
-//  FlexView.swift
-//  FastUI
-//
-//  Created by Muis on 11/01/20.
-//
-
 import UIKit
 import FlexLayout
 
@@ -14,17 +7,17 @@ public class FlexView: UIView {
         view.flexWith(FastFlex(flex: flex))
     }
     
-    var isUsingSafeArea = true
+    var isRoot = true
     
     public override func layoutSubviews() {
         super.layoutSubviews()
-        var insets: UIEdgeInsets = .zero
-        if isUsingSafeArea {
+        if isRoot {
+            var insets: UIEdgeInsets = .zero
             if #available(iOS 11.0, *) {
                 insets = safeAreaInsets
             }
+            flex.padding(insets)
         }
-        flex.padding(insets)
         flex.layout()
     }
 }

@@ -1,18 +1,19 @@
-import Foundation
 import FastUIKit
 
-public struct TextField: SomeView, UIKitContainer {
-    public var view: UIView { return _view }
-    public let _view: FastUIKit.TextField
-    public static func create(_ view: FastUIKit.TextField, subViews: [SomeView]) -> TextField {
-        if !subViews.isEmpty { fatalError() }
-        return Self.init(_view: view)
-    }
+extension _TextField: SomeView {
+    public var body: SomeView { self }
+}
+
+public struct TextField: SomeView {
+    private let view: _TextField
+    public var body: SomeView { view }
+    
+    
 }
 
 public extension TextField {
     init(_ placeholder: String) {
-        self = Self.create(UIKitView.init(), subViews: [])
-        _view.placeholder = placeholder
+        self = Self.init(view: _TextField())
+        view.placeholder = placeholder
     }
 }

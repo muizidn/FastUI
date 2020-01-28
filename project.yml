@@ -12,19 +12,6 @@ targets:
         includes: 
           - "*.{swift,h}"
     dependencies:
-      - target: FastUIKit
-      - carthage: ViewDSL
-  FastUIKit:
-    type: framework
-    platform: iOS
-    settings:
-      INFOPLIST_FILE: plists/Info.plist
-      IOS_DEPLOYMENT_TARGET: 8.0
-    sources:
-      - path: Sources/FastUIKit
-        includes: 
-          - "*.swift"
-    dependencies:
       - carthage: FlexLayout
       - carthage: ViewDSL
   ExampleApp:

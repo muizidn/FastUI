@@ -31,10 +31,10 @@ public extension Flex {
             print("FlexView.error - type: \(type(of: self.view)) is not FlexView")
             return
         }
-        if let stack = v as? VStack {
+        if let stack = v as? _VStack {
             stack.isReverse = isReverse
         }
-        if let stack = v as? HStack {
+        if let stack = v as? _HStack {
             stack.isReverse = isReverse
         }
     }
