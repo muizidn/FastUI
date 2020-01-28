@@ -12,29 +12,35 @@ class ViewController: UIViewController {
         VStack {
             HStack {
                 Color.red
-                    ._configure({
-                        $0._flex_width(50%)
-                        $0._flex_height(100%)
+                    ._flex({
+                        $0.width(50%)
+                        $0.height(100%)
                     })
                 EmptyView()
-                    ._flex_width(10)
+                    ._flex({
+                        $0.width(10)
+                    })
                 Color.yellow
-                    ._configure({
-                        $0._flex_width(50%)
-                        $0._flex_height(100%)
+                    ._flex({
+                        $0.width(50%)
+                        $0.height(100%)
                     })
             }
-            ._configure({
-                $0.foregroundColor(.black)
-                $0._flex_height(100)
+            ._flex({
+                $0.height(100)
             })
+            .foregroundColor(.black)
 
             EmptyView()
-                ._flex_height(10)
+                ._flex({
+                    $0.height(10)
+                })
                 .foregroundColor(.red)
             
             EmptyView()
-                ._flex_height(10)
+                ._flex({
+                    $0.height(10)
+                })
             
             Text("Hello World")
             
@@ -47,7 +53,9 @@ class ViewController: UIViewController {
             }
             
             EmptyView()
-                ._flex_height(10)
+                ._flex({
+                    $0.height(10)
+                })
             
             Button.init(action: {
                 print("I am clicked again")
@@ -57,24 +65,22 @@ class ViewController: UIViewController {
             
             HStack {
                 Color.red
-                    ._configure({
-                        $0._flex_width(50%)
-                        $0._flex_height(100%)
+                    ._flex({
+                        $0.width(50%)
+                        $0.height(100%)
                     })
                 Color.blue
-                    ._configure({
-                        $0._flex_width(50%)
-                        $0._flex_height(100%)
+                    ._flex({
+                        $0.width(50%)
+                        $0.height(100%)
                     })
             }
-            ._configure({
-                $0.foregroundColor(.green)
-                $0._flex_height(100)
+            ._flex({
+                $0.height(100)
             })
+            .foregroundColor(.green)
         }
-        ._configure({
-            $0.foregroundColor(.cyan)
-        })
+        .foregroundColor(.cyan)
     }
     
     override func loadView() {
