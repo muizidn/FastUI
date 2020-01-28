@@ -1,5 +1,3 @@
-import FastUIKit
-
 extension _SecureTextField: View {
     public var body: View { self }
 }

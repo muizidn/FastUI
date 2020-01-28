@@ -1,5 +1,3 @@
-import FastUIKit
-
 extension _HStack: View {
     public var body: View { self }
 }

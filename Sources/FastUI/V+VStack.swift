@@ -1,5 +1,3 @@
-import FastUIKit
-
 extension _VStack: View {
     public var body: View { self }
 }

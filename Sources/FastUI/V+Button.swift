@@ -1,5 +1,3 @@
-import FastUIKit
-
 extension _Button: View {
     public var body: View { self }
 }

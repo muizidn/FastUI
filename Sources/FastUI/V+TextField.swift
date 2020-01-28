@@ -1,5 +1,3 @@
-import FastUIKit
-
 extension _TextField: View {
     public var body: View { self }
 }
