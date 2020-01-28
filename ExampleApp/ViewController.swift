@@ -59,7 +59,7 @@ class ViewController: UIViewController {
             
             Button.init(action: {
                 print("I am clicked again")
-            }) { () -> Text in
+            }) {
                 Text("Hello World")
             }
             
