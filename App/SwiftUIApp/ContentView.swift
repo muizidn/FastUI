@@ -10,10 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Color.red
-            Spacer()
-//                .frame(minHeight: 10)
-            Color.blue
+            Toggle.init("Something", isOn: .init(get: { false }, set: {_ in}))
         }
         
     }

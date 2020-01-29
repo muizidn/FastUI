@@ -12,9 +12,7 @@ import FastUI
 struct ContentView: View {
     var body: View {
         VStack {
-            Color.yellow
-            Spacer()
-            Color.blue
+            Toggle()
         }
         .foregroundColor(.red)
     }
