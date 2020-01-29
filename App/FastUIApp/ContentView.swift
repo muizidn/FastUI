@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: View {
         VStack {
             Color.yellow
-            Divider()
+            Spacer()
             Color.blue
         }
         .foregroundColor(.red)

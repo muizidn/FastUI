@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
+        VStack {
             Color.red
-            Divider()
+            Spacer()
+//                .frame(minHeight: 10)
             Color.blue
         }
         
