@@ -2,8 +2,6 @@
 // with modifications
 
 #if canImport(UIKit)
-import UIKit
-
 typealias ViewType = UIView
 #else
 #endif
@@ -15,8 +13,6 @@ protocol ViewDSL: class {
 }
 
 #if canImport(UIKit)
-import UIKit
-
 extension ViewType: ViewDSL {}
 
 extension ViewType {

@@ -1,5 +1,3 @@
-import UIKit
-
 @_functionBuilder
 public struct ViewBuilder {
     

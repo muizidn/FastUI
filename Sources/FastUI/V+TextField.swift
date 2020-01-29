@@ -1,9 +1,9 @@
-extension _TextField: View {
+extension SwiftUI.TextField: View {
     public var body: View { self }
 }
 
 public struct TextField: View {
-    private let view: _TextField
+    private let view: SwiftUI.TextField
     public var body: View { view }
     
     
@@ -11,7 +11,7 @@ public struct TextField: View {
 
 public extension TextField {
     init(_ placeholder: String) {
-        self = Self.init(view: _TextField())
+        self = Self.init(view: SwiftUI.TextField())
         view.placeholder = placeholder
     }
 }
