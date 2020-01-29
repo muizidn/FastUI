@@ -13,6 +13,10 @@ struct ContentView: View {
     var body: View {
         VStack {
             Toggle()
+            Picker()
+            Slider()
+            DatePicker()
+            Stepper()
         }
         .foregroundColor(.red)
     }
