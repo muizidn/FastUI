@@ -12,11 +12,7 @@ import FastUI
 struct ContentView: View {
     var body: View {
         VStack {
-            Toggle()
-            Picker()
-            Slider()
-            DatePicker()
-            Stepper()
+            Image.init(systemName: "star.fill")
         }
         .foregroundColor(.red)
     }
