@@ -1,4 +1,13 @@
 name: FastUI
+schemes:
+  FastUI:
+    build:
+      targets:
+        FastUI: build
+  FastUIApp:
+    build:
+      targets:
+        FastUIApp: run
 targets:
   FastUI:
     type: framework

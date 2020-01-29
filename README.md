@@ -20,4 +20,5 @@ Or make a PR, I'll happy to see your smart idea! 頑張るぞ！😅
 
 ## Screenshoot
 
-![xcode-debugger](.github/res/xcode-debugger.png)
+![xcode-debugger-potrait](.github/res/xcode-debugger-potrait.png)
+![xcode-debugger-potrait](.github/res/xcode-debugger-landscape.png)
