@@ -38,4 +38,5 @@ targets:
     settings:
       INFOPLIST_FILE: App/SwiftUIApp/Info.plist
       IPHONEOS_DEPLOYMENT_TARGET: 13.0
+      PRODUCT_BUNDLE_IDENTIFIER: com.muiz.idn.$(TARGET_NAME)
     sources: App/SwiftUIApp

@@ -11,8 +11,8 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Color.red
-            Text("Hello World")
         }
+        
     }
 }
 

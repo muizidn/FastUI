@@ -27,7 +27,7 @@ extension SwiftUI {
 
     // final class TransformedShape: UIView {}
 
-    final class Color: UIView, View {
+    final class Color: FlexView, View {
         var body: View { self }
     }
 
