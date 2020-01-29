@@ -1,4 +1,3 @@
-import UIKit
 import FlexLayout
 
 /// VStack vs Column? SwiftUI uses VStack
@@ -30,10 +29,10 @@ public extension Flex {
             print("FlexView.error - type: \(type(of: self.view)) is not FlexView")
             return
         }
-        if let stack = v as? _VStack {
+        if let stack = v as? SwiftUI.VStack {
             stack.isReverse = isReverse
         }
-        if let stack = v as? _HStack {
+        if let stack = v as? SwiftUI.HStack {
             stack.isReverse = isReverse
         }
     }

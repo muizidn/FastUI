@@ -1,13 +1,8 @@
-import UIKit
-
-final class _Color: UIView, View {
-    var body: View { self }
-}
 public struct Color: View {
-    private let view: _Color
+    private let view: SwiftUI.Color
     
     init(_ uiColor: UIColor) {
-        let view = _Color()
+        let view = SwiftUI.Color()
         view.backgroundColor = uiColor
         self.view = view
     }

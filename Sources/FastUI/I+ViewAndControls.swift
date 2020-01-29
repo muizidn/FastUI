@@ -1,59 +1,59 @@
-import UIKit
-
-final class _Text: UILabel {}
-
-final class _TextField: UITextField {}
-
-final class _SecureTextField: UITextField {
-    override init(frame: CGRect = .zero) {
-        super.init(frame: frame)
-        isSecureTextEntry = true
-    }
+extension SwiftUI {
+    final class Text: UILabel {}
     
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-}
-
-final class _Font: UILabel {}
-
-// final class _Image: UIView {}
-
- final class _Button: UIButton {
-    public var label: UILabel = UILabel() {
-        didSet {
-            setTitle(label.text, for: .normal)
+    final class TextField: UITextField {}
+    
+    final class SecureTextField: UITextField {
+        override init(frame: CGRect = .zero) {
+            super.init(frame: frame)
+            isSecureTextEntry = true
         }
-    }
-    public var action: () -> Void = {} {
-        didSet {
-            self.addTarget(
-                self,
-                action: #selector(callAction),
-                for: .touchUpInside)
+        
+        required init?(coder: NSCoder) {
+            fatalError("init(coder:) has not been implemented")
         }
     }
     
-    @objc func callAction() {
-        action()
+    final class Font: UILabel {}
+    
+    // final class Image: UIView {}
+    
+    final class Button: UIButton {
+        public var label: UILabel = UILabel() {
+            didSet {
+                setTitle(label.text, for: .normal)
+            }
+        }
+        public var action: () -> Void = {} {
+            didSet {
+                self.addTarget(
+                    self,
+                    action: #selector(callAction),
+                    for: .touchUpInside)
+            }
+        }
+        
+        @objc func callAction() {
+            action()
+        }
     }
+    
+    // final class NavigationLink: UIView {}
+    
+    // final class MenuButton: UIView {}
+    
+    // final class EditButton: UIView {}
+    
+    // final class PasteButton: UIView {}
+    
+    // final class Toggle: UIView {}
+    
+    // final class Picker: UIView {}
+    
+    // final class DatePicker: UIView {}
+    
+    // final class Slider: UIView {}
+    
+    // final class Stepper: UIView {}
+    
 }
-
-// final class _NavigationLink: UIView {}
-
-// final class _MenuButton: UIView {}
-
-// final class _EditButton: UIView {}
-
-// final class _PasteButton: UIView {}
-
-// final class _Toggle: UIView {}
-
-// final class _Picker: UIView {}
-
-// final class _DatePicker: UIView {}
-
-// final class _Slider: UIView {}
-
-// final class _Stepper: UIView {}
-

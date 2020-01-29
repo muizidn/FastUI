@@ -1,4 +1,3 @@
-import UIKit
 import FlexLayout
 
 public class FlexView: UIView {

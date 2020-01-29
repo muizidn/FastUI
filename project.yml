@@ -15,18 +15,27 @@ targets:
     settings:
       INFOPLIST_FILE: plists/Info.plist
       IPHONEOS_DEPLOYMENT_TARGET: 8.0
+      PRODUCT_BUNDLE_IDENTIFIER: com.muiz.idn.$(TARGET_NAME)
     sources:
       - path: Sources/FastUI
         includes: 
           - "*.{swift}"
     dependencies:
       - carthage: FlexLayout
-  ExampleApp:
+  FastUIApp:
     type: application
     platform: iOS
     settings:
-      INFOPLIST_FILE: ExampleApp/Info.plist
+      INFOPLIST_FILE: App/FastUIApp/Info.plist
       IPHONEOS_DEPLOYMENT_TARGET: 8.0
-    sources: ExampleApp
+      PRODUCT_BUNDLE_IDENTIFIER: com.muiz.idn.$(TARGET_NAME)
+    sources: App/FastUIApp
     dependencies:
       - target: FastUI
+  SwiftUIApp:
+    type: application
+    platform: iOS
+    settings:
+      INFOPLIST_FILE: App/SwiftUIApp/Info.plist
+      IPHONEOS_DEPLOYMENT_TARGET: 13.0
+    sources: App/SwiftUIApp
