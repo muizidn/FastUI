@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        HStack {
             Color.red
+            Divider()
+            Color.blue
         }
         
     }

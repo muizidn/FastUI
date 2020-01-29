@@ -13,7 +13,8 @@ struct ContentView: View {
     var body: View {
         VStack {
             Color.yellow
-                ._flex_grow(1)
+            Divider()
+            Color.blue
         }
         .foregroundColor(.red)
     }

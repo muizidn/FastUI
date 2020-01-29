@@ -12,9 +12,10 @@ public extension VStack {
     init(@ViewBuilder builder: () -> View) {
         let view = SwiftUI.VStack()
         let someviews = builder().asSubviews()
+        self = Self.init(view: view)
         someviews.forEach { (v) in
+            v.configureInParent(self)
             view.add(v.view(Self.self))
         }
-        self = Self.init(view: view)
     }
 }

@@ -75,6 +75,12 @@ public extension Color {
     static var clear: Color { get { Color.init(red: 0, green: 0, blue: 0) }}
 }
 
+extension Color: SelfConfigure {
+    func configureInParent(_ parent: View) {
+        _flex_grow(1)
+    }
+}
+
 /// https://stackoverflow.com/a/27203596
 
 fileprivate func hexStringToUIColor (hex:String) -> UIColor {

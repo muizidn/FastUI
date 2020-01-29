@@ -36,8 +36,18 @@ extension View  {
         }
         return [self]
     }
+    
+    func configureInParent(_ parent: View) {
+        (self as? SelfConfigure)?
+            .configureInParent(parent)
+    }
 }
 
 extension Array: View where Element: View {
     public var body: View { self }
+}
+
+
+protocol SelfConfigure {
+    func configureInParent(_ parent: View)
 }

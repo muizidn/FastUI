@@ -11,3 +11,10 @@ struct _View: View {
     let s: View
     var body: View { s }
 }
+
+extension _View: SelfConfigure {
+    func configureInParent(_ parent: View) {
+        (s as? SelfConfigure)?
+            .configureInParent(parent)
+    }
+}
