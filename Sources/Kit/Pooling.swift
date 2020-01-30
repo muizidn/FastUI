@@ -1,11 +1,4 @@
-//
-//  Pooling.swift
-//  ExampleApp
-//
-//  Created by Muis on 27/01/20.
-//
-
-import UIKit
+// Litho?
 
 public protocol Poolable {
     static func defaultInit() -> Self

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SwiftUIView: View {
     var body: some View {
         VStack {
             Button.init("Clickme", action: {})
@@ -18,18 +18,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-    }
-}
-
-struct NextView: View {
-    var body: some View {
-        NavigationView {
-            VStack {
-                Color.yellow
-            }
-        }
+        SwiftUIView()
     }
 }

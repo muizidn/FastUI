@@ -1,23 +1,8 @@
-#if DEBUG
-public protocol View: CustomDebugStringConvertible {
-    #if IOS13
-    associatedtype Body: View
-    var body: Body { get }
-    #else
-    var body: View { get }
-    #endif
-}
-#else
+#if IOS8
 public protocol View {
-    #if IOS13
-    associatedtype Body: View
-    var body: Body { get }
-    #else
     var body: View { get }
-    #endif
 }
 #endif
-
 
 public extension View {
     func view<T>(_ caller: T.Type = T.self, file: StaticString = #file, fn: StaticString = #function, line: Int = #line) -> UIView {

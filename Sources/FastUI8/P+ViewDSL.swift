@@ -1,18 +1,13 @@
 // https://github.com/muizidn/viewdsl/tree/0.0.6 with
 // with modifications
 
-#if canImport(UIKit)
 typealias ViewType = UIView
-#else
-#endif
-
 @objc
 protocol ViewDSL: class {
     @objc
     func put(_ view: ViewType)
 }
 
-#if canImport(UIKit)
 extension ViewType: ViewDSL {}
 
 extension ViewType {
@@ -64,4 +59,3 @@ extension ViewDSL {
     }
 }
 
-#endif
