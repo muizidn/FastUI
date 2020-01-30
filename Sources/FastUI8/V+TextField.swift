@@ -15,3 +15,7 @@ public extension TextField {
         view.placeholder = placeholder
     }
 }
+
+extension SwiftUI {
+    final class TextField: UITextField {}
+}

@@ -12,3 +12,16 @@ public extension SecureTextField {
         self = Self.init(view: SwiftUI.SecureTextField())
     }
 }
+
+extension SwiftUI {
+    final class SecureTextField: UITextField {
+        override init(frame: CGRect = .zero) {
+            super.init(frame: frame)
+            isSecureTextEntry = true
+        }
+        
+        required init?(coder: NSCoder) {
+            fatalError("init(coder:) has not been implemented")
+        }
+    }
+}

@@ -29,23 +29,37 @@ public class UIHostingController<Content: View>: UIViewController {
 }
 
 // a copy of SwiftUI.VStack
-fileprivate final class UIHostingView: FlexView {
+fileprivate final class UIHostingView: UIView {
     
-    @objc
-    override func flexWith(_ parent: FastFlex) {
-        parent.flex
-            .addItem(self)
-        isReverse = false
-    }
-    
-    var isReverse = false {
-        didSet {
-            flex.direction(isReverse ? .columnReverse : .column)
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        guard let children = subviews.first else { fatalError() }
+        
+        var insets: UIEdgeInsets = {
+            if #available(iOS 11.0, *) {
+                return safeAreaInsets
+            } else {
+                return .zero
+            }
+        }()
+        
+        let ignoredSet = children.ignoredSafeAreaEdgeSet ?? .init()
+        
+        if ignoredSet.contains(.top) {
+            insets.top = 0
         }
-    }
-    
-    override var ignoredSafeAreaEdgeSet: Edge.Set? {
-        get { .all }
-        set {  }
+        if ignoredSet.contains(.leading) {
+            insets.left = 0
+        }
+        if ignoredSet.contains(.bottom) {
+            insets.bottom = 0
+        }
+        if ignoredSet.contains(.trailing) {
+            insets.right = 0
+        }
+        
+        flex.padding(insets)
+        flex.direction(.column)
+        flex.layout()
     }
 }

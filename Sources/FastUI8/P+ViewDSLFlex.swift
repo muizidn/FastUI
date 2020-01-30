@@ -25,14 +25,10 @@ extension UIView: ViewDSLFlex {
 
 public extension Flex {
     func isReverse(_ isReverse: Bool = true) {
-        guard let v = self.view as? FlexView else {
-            print("FlexView.error - type: \(type(of: self.view)) is not FlexView")
-            return
-        }
-        if let stack = v as? SwiftUI.VStack {
+        if let stack = view as? SwiftUI.VStack {
             stack.isReverse = isReverse
         }
-        if let stack = v as? SwiftUI.HStack {
+        if let stack = view as? SwiftUI.HStack {
             stack.isReverse = isReverse
         }
     }

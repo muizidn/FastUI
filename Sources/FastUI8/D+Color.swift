@@ -81,6 +81,12 @@ extension Color: SelfConfigure {
     }
 }
 
+extension SwiftUI {
+    final class Color: UIView, View {
+        var body: View { self }
+    }
+}
+
 /// https://stackoverflow.com/a/27203596
 
 fileprivate func hexStringToUIColor (hex:String) -> UIColor {

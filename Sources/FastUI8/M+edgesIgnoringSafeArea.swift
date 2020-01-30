@@ -2,9 +2,7 @@ import UIKit
 
 public extension View {
     func edgesIgnoringSafeArea(_ edges: Edge.Set) -> Self {
-        if let view = self.view(Self.self) as? FlexView {
-            view.ignoredSafeAreaEdgeSet = edges
-        }
+        view(Self.self).ignoredSafeAreaEdgeSet = edges
         return self
     }
 }

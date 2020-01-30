@@ -6,13 +6,15 @@
 //
 
 import Foundation
-import FastUI
+import FastUI8
 
 
 struct ContentView: View {
     var body: View {
         VStack {
-            Image.init(systemName: "star.fill")
+            Text("Yuhuu")
+            Image(systemName: "star.fill")
+            Text("This is easy")
         }
         .foregroundColor(.red)
     }

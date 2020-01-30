@@ -12,3 +12,7 @@ public extension EmptyView {
         view = SwiftUI.EmptyView()
     }
 }
+
+extension SwiftUI {
+    final class EmptyView: UIView {}
+}

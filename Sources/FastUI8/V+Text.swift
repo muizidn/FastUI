@@ -16,3 +16,7 @@ public extension Text {
         self = Self.init(view: text)
     }
 }
+
+extension SwiftUI {
+    final class Text: UILabel {}
+}

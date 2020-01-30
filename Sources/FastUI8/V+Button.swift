@@ -20,3 +20,25 @@ public extension Button {
         self.view.label = label().view(Self.self) as! UILabel
     }
 }
+
+extension SwiftUI {
+    final class Button: UIButton {
+        public var label: UILabel = UILabel() {
+            didSet {
+                setTitle(label.text, for: .normal)
+            }
+        }
+        public var action: () -> Void = {} {
+            didSet {
+                self.addTarget(
+                    self,
+                    action: #selector(callAction),
+                    for: .touchUpInside)
+            }
+        }
+        
+        @objc func callAction() {
+            action()
+        }
+    }
+}

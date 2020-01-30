@@ -1,8 +1,6 @@
-#if IOS8
 public protocol View {
     var body: View { get }
 }
-#endif
 
 public extension View {
     func view<T>(_ caller: T.Type = T.self, file: StaticString = #file, fn: StaticString = #function, line: Int = #line) -> UIView {
