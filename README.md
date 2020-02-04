@@ -20,5 +20,5 @@ Or make a PR, I'll happy to see your smart idea! 頑張るぞ！😅
 
 ## Screenshoot
 
-![xcode-debugger-potrait](https://github.com/muizidn/FastUI/blob/master/.github/res/xcode-debugger-potrait.png)
-![xcode-debugger-potrait](https://github.com/muizidn/FastUI/blob/master/.github/res/xcode-debugger-landscape.png)
+![xcode-debugger-potrait](https://github.com/muizidn/FastUI/raw/master/.github/res/xcode-debugger-potrait.png)
+![xcode-debugger-potrait](https://github.com/muizidn/FastUI/raw/master/.github/res/xcode-debugger-landscape.png)
