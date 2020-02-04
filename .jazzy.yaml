@@ -1,0 +1,19 @@
+module: FastUI8
+author: Muhammad Muizzsuddin
+author_url: http://github.com/muizidn
+github_url: https://github.com/muizidn/FastUI
+copyright: '© 2019 FastUI'
+min_acl: public
+theme: apple
+readme: README.md
+documentation: Documentation/*.md
+xcodebuild_arguments:
+  - -project
+  - FastUI.xcodeproj
+  - -target
+  - FastUI8
+custom_categories:
+  - name: View and Controls
+    children:
+      - VStack
+      - HStack

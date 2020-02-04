@@ -1,0 +1,40 @@
+language: objective-c
+os: osx
+osx_image: xcode11.2
+gemfile: Gemfile
+
+before_install:
+  - gem install bundler
+  - brew install xcodegen
+
+env:
+   global:
+   - LANG=en_US.UTF-8
+
+git:
+  depth: 1
+  quiet: true
+
+cache: 
+  bundler: true
+  directories:
+    - $HOME/Library/Caches/Homebrew
+
+branches:
+  only:
+    - master
+
+notifications:
+  email:
+   - muiz.idn@gmail.com
+
+script:
+  - make gendoc
+
+deploy:
+  provider: pages
+  cleanup: true
+  token: $GITHUB_TOKEN
+  keep_history: false
+  on:
+    branch: master
