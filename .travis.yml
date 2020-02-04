@@ -30,11 +30,3 @@ notifications:
 
 script:
   - make gendoc
-
-deploy:
-  provider: pages
-  cleanup: true
-  token: $GITHUB_TOKEN
-  keep_history: false
-  on:
-    branch: master
