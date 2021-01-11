@@ -1,0 +1,1489 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 1,
+      "symbol": "Color",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 10,
+      "symbol": "Color.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 13,
+      "symbol": "Color",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 17,
+      "symbol": "Color.init(_:red:green:blue:opacity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 26,
+      "symbol": "Color.init(_:white:opacity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 33,
+      "symbol": "Color.init(hue:saturation:brightness:opacity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 45,
+      "symbol": "Color",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 46,
+      "symbol": "Color.RGBColorSpace",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 47,
+      "symbol": "Color.RGBColorSpace.sRGB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 51,
+      "symbol": "Color",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 63,
+      "symbol": "Color",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 64,
+      "symbol": "Color.black",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 65,
+      "symbol": "Color.white",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 66,
+      "symbol": "Color.red",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 67,
+      "symbol": "Color.green",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 68,
+      "symbol": "Color.blue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 69,
+      "symbol": "Color.cyan",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 70,
+      "symbol": "Color.yellow",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 71,
+      "symbol": "Color.magenta",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 72,
+      "symbol": "Color.orange",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 73,
+      "symbol": "Color.purple",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 74,
+      "symbol": "Color.brown",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/D+Color.swift",
+      "line": 75,
+      "symbol": "Color.clear",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+EmptyView.swift",
+      "line": 5,
+      "symbol": "EmptyView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+EmptyView.swift",
+      "line": 7,
+      "symbol": "EmptyView.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+EmptyView.swift",
+      "line": 10,
+      "symbol": "EmptyView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+EmptyView.swift",
+      "line": 11,
+      "symbol": "EmptyView.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+HStack.swift",
+      "line": 2,
+      "symbol": "SwiftUI.HStack.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+HStack.swift",
+      "line": 5,
+      "symbol": "HStack",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+HStack.swift",
+      "line": 8,
+      "symbol": "HStack.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+HStack.swift",
+      "line": 11,
+      "symbol": "HStack",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+HStack.swift",
+      "line": 12,
+      "symbol": "HStack.init(builder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+VStack.swift",
+      "line": 2,
+      "symbol": "SwiftUI.VStack.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+VStack.swift",
+      "line": 5,
+      "symbol": "VStack",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+VStack.swift",
+      "line": 8,
+      "symbol": "VStack.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+VStack.swift",
+      "line": 11,
+      "symbol": "VStack",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/L+VStack.swift",
+      "line": 12,
+      "symbol": "VStack.init(builder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+configure.swift",
+      "line": 5,
+      "symbol": "View._configure(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+debug.swift",
+      "line": 5,
+      "symbol": "View.debug(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+edgesIgnoringSafeArea.swift",
+      "line": 4,
+      "symbol": "View.edgesIgnoringSafeArea(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 5,
+      "symbol": "View._flex(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 12,
+      "symbol": "View._flex_isIncludedInLayout(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 17,
+      "symbol": "View._flex_markDirty()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 22,
+      "symbol": "View._flex_direction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 27,
+      "symbol": "View._flex_wrap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 32,
+      "symbol": "View._flex_layoutDirection(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 37,
+      "symbol": "View._flex_justifyContent(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 42,
+      "symbol": "View._flex_alignItems(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 47,
+      "symbol": "View._flex_alignSelf(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 52,
+      "symbol": "View._flex_alignContent(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 57,
+      "symbol": "View._flex_grow(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 62,
+      "symbol": "View._flex_shrink(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 67,
+      "symbol": "View._flex_basis(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 72,
+      "symbol": "View._flex_basis(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 77,
+      "symbol": "View._flex_width(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 82,
+      "symbol": "View._flex_width(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 87,
+      "symbol": "View._flex_height(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 92,
+      "symbol": "View._flex_height(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 97,
+      "symbol": "View._flex_size(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 102,
+      "symbol": "View._flex_size(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 107,
+      "symbol": "View._flex_minWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 112,
+      "symbol": "View._flex_minWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 117,
+      "symbol": "View._flex_maxWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 122,
+      "symbol": "View._flex_maxWidth(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 127,
+      "symbol": "View._flex_minHeight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 132,
+      "symbol": "View._flex_minHeight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 137,
+      "symbol": "View._flex_maxHeight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 142,
+      "symbol": "View._flex_maxHeight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 147,
+      "symbol": "View._flex_aspectRatio(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 152,
+      "symbol": "View._flex_aspectRatio(of:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 157,
+      "symbol": "View._flex_position(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 162,
+      "symbol": "View._flex_left(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 167,
+      "symbol": "View._flex_left(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 172,
+      "symbol": "View._flex_top(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 177,
+      "symbol": "View._flex_top(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 182,
+      "symbol": "View._flex_right(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 187,
+      "symbol": "View._flex_right(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 192,
+      "symbol": "View._flex_bottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 197,
+      "symbol": "View._flex_bottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 202,
+      "symbol": "View._flex_start(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 207,
+      "symbol": "View._flex_start(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 212,
+      "symbol": "View._flex_end(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 217,
+      "symbol": "View._flex_end(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 222,
+      "symbol": "View._flex_horizontally(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 227,
+      "symbol": "View._flex_horizontally(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 232,
+      "symbol": "View._flex_vertically(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 237,
+      "symbol": "View._flex_vertically(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 242,
+      "symbol": "View._flex_all(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 247,
+      "symbol": "View._flex_all(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 252,
+      "symbol": "View._flex_marginTop(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 257,
+      "symbol": "View._flex_marginTop(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 262,
+      "symbol": "View._flex_marginLeft(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 267,
+      "symbol": "View._flex_marginLeft(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 272,
+      "symbol": "View._flex_marginBottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 277,
+      "symbol": "View._flex_marginBottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 282,
+      "symbol": "View._flex_marginRight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 287,
+      "symbol": "View._flex_marginRight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 292,
+      "symbol": "View._flex_marginStart(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 297,
+      "symbol": "View._flex_marginStart(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 302,
+      "symbol": "View._flex_marginEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 307,
+      "symbol": "View._flex_marginEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 312,
+      "symbol": "View._flex_marginHorizontal(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 317,
+      "symbol": "View._flex_marginHorizontal(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 322,
+      "symbol": "View._flex_marginVertical(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 327,
+      "symbol": "View._flex_marginVertical(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 332,
+      "symbol": "View._flex_margin(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 337,
+      "symbol": "View._flex_margin(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 342,
+      "symbol": "View._flex_margin(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 347,
+      "symbol": "View._flex_margin(_:_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 352,
+      "symbol": "View._flex_margin(_:_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 357,
+      "symbol": "View._flex_paddingTop(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 362,
+      "symbol": "View._flex_paddingLeft(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 367,
+      "symbol": "View._flex_paddingBottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 372,
+      "symbol": "View._flex_paddingRight(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 377,
+      "symbol": "View._flex_paddingStart(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 382,
+      "symbol": "View._flex_paddingEnd(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 387,
+      "symbol": "View._flex_paddingHorizontal(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 392,
+      "symbol": "View._flex_paddingVertical(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 397,
+      "symbol": "View._flex_padding(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 402,
+      "symbol": "View._flex_padding(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 407,
+      "symbol": "View._flex_padding(_:_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 412,
+      "symbol": "View._flex_backgroundColor(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+flex.swift",
+      "line": 417,
+      "symbol": "View._flex_display(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/M+foregroundColor.swift",
+      "line": 5,
+      "symbol": "View.foregroundColor(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 1,
+      "symbol": "View",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 2,
+      "symbol": "View.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 3,
+      "symbol": "View",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 4,
+      "symbol": "View",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 4,
+      "symbol": "View",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 4,
+      "symbol": "View",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 4,
+      "symbol": "View",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 5,
+      "symbol": "View",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 6,
+      "symbol": "View.view(_:file:fn:line:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 11,
+      "symbol": "View",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 28,
+      "symbol": "View",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 29,
+      "symbol": "View.debugDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+View.swift",
+      "line": 47,
+      "symbol": "Array.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/P+ViewDSLFlex.swift",
+      "line": 27,
+      "symbol": "Flex.isReverse(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 1,
+      "symbol": "Edge",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 2,
+      "symbol": "Edge.bottom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 2,
+      "symbol": "Edge.leading",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 2,
+      "symbol": "Edge.top",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 2,
+      "symbol": "Edge.trailing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 5,
+      "symbol": "Edge",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 6,
+      "symbol": "Edge.Set",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 14,
+      "symbol": "Edge.Set",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 15,
+      "symbol": "Edge.Set.top",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 16,
+      "symbol": "Edge.Set.leading",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 17,
+      "symbol": "Edge.Set.bottom",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 18,
+      "symbol": "Edge.Set.vertical",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 19,
+      "symbol": "Edge.Set.trailing",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 20,
+      "symbol": "Edge.Set.horizontal",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/T+Edge.swift",
+      "line": 21,
+      "symbol": "Edge.Set.all",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/UIHostingController.swift",
+      "line": 3,
+      "symbol": "UIHostingController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/UIHostingController.swift",
+      "line": 15,
+      "symbol": "UIHostingController.init(rootView:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/UIHostingController.swift",
+      "line": 20,
+      "symbol": "UIHostingController.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Button.swift",
+      "line": 2,
+      "symbol": "SwiftUI.Button.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Button.swift",
+      "line": 5,
+      "symbol": "Button",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Button.swift",
+      "line": 7,
+      "symbol": "Button.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Button.swift",
+      "line": 10,
+      "symbol": "Button",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Button.swift",
+      "line": 11,
+      "symbol": "Button.init(_:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Button.swift",
+      "line": 17,
+      "symbol": "Button.init(action:label:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+DatePicker.swift",
+      "line": 3,
+      "symbol": "DatePicker",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+DatePicker.swift",
+      "line": 5,
+      "symbol": "DatePicker.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+DatePicker.swift",
+      "line": 13,
+      "symbol": "DatePicker",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+DatePicker.swift",
+      "line": 14,
+      "symbol": "DatePicker.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Divider.swift",
+      "line": 3,
+      "symbol": "Divider",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Divider.swift",
+      "line": 5,
+      "symbol": "Divider.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Divider.swift",
+      "line": 20,
+      "symbol": "Divider",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Divider.swift",
+      "line": 21,
+      "symbol": "Divider.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Image.swift",
+      "line": 3,
+      "symbol": "Image",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Image.swift",
+      "line": 5,
+      "symbol": "Image.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Image.swift",
+      "line": 16,
+      "symbol": "Image",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Image.swift",
+      "line": 17,
+      "symbol": "Image.init(systemName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Picker.swift",
+      "line": 3,
+      "symbol": "Picker",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Picker.swift",
+      "line": 5,
+      "symbol": "Picker.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Picker.swift",
+      "line": 13,
+      "symbol": "Picker",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Picker.swift",
+      "line": 14,
+      "symbol": "Picker.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+SecureTextField.swift",
+      "line": 2,
+      "symbol": "SwiftUI.SecureTextField.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+SecureTextField.swift",
+      "line": 5,
+      "symbol": "SecureTextField",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+SecureTextField.swift",
+      "line": 7,
+      "symbol": "SecureTextField.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+SecureTextField.swift",
+      "line": 10,
+      "symbol": "SecureTextField",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+SecureTextField.swift",
+      "line": 11,
+      "symbol": "SecureTextField.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Slider.swift",
+      "line": 3,
+      "symbol": "Slider",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Slider.swift",
+      "line": 5,
+      "symbol": "Slider.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Slider.swift",
+      "line": 14,
+      "symbol": "Slider",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Slider.swift",
+      "line": 15,
+      "symbol": "Slider.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Spacer.swift",
+      "line": 3,
+      "symbol": "Spacer",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Spacer.swift",
+      "line": 6,
+      "symbol": "Spacer.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Spacer.swift",
+      "line": 28,
+      "symbol": "Spacer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Spacer.swift",
+      "line": 29,
+      "symbol": "Spacer.init(minLength:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Stepper.swift",
+      "line": 3,
+      "symbol": "Stepper",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Stepper.swift",
+      "line": 5,
+      "symbol": "Stepper.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Stepper.swift",
+      "line": 13,
+      "symbol": "Stepper",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Stepper.swift",
+      "line": 14,
+      "symbol": "Stepper.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Text.swift",
+      "line": 3,
+      "symbol": "SwiftUI.Text.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Text.swift",
+      "line": 6,
+      "symbol": "Text",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Text.swift",
+      "line": 9,
+      "symbol": "Text.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Text.swift",
+      "line": 12,
+      "symbol": "Text",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Text.swift",
+      "line": 13,
+      "symbol": "Text.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+TextField.swift",
+      "line": 2,
+      "symbol": "SwiftUI.TextField.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+TextField.swift",
+      "line": 5,
+      "symbol": "TextField",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+TextField.swift",
+      "line": 7,
+      "symbol": "TextField.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+TextField.swift",
+      "line": 12,
+      "symbol": "TextField",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+TextField.swift",
+      "line": 13,
+      "symbol": "TextField.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Toggle.swift",
+      "line": 3,
+      "symbol": "Toggle",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Toggle.swift",
+      "line": 5,
+      "symbol": "Toggle.body",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Toggle.swift",
+      "line": 14,
+      "symbol": "Toggle",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/V+Toggle.swift",
+      "line": 15,
+      "symbol": "Toggle.init(minLength:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/ViewBuilder.swift",
+      "line": 2,
+      "symbol": "ViewBuilder",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/ViewBuilder.swift",
+      "line": 4,
+      "symbol": "ViewBuilder.buildBlock(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/travis/build/muizidn/FastUI/Sources/FastUI8/ViewBuilder.swift",
+      "line": 6,
+      "symbol": "ViewBuilder.buildBlock(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/travis/build/muizidn/FastUI"
+}
